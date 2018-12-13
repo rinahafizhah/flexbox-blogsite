@@ -1,0 +1,95 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items : stretch;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 400px;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.header{
+    height: 80px;
+}
+
+.container {
+    height: 80px;
+    background-color: #1e6b6b;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.container h1{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+.page-link {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.page-link ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-link ul li {
+    margin-right: 15px;
+}
+
+.banner{
+    padding-top: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    background-image: url("./assets/banner-image.jpg");
+    height: 400px;
+    width: 100%;
+}
+
+.page-title{
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 20px;
+    background-color: #b1b9b9;
+}
